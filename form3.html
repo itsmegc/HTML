@@ -1,0 +1,92 @@
+<!doctype>
+<html>
+<head>
+<title> XYZ  </title>
+
+<head>
+
+<body>
+
+<form id="form3">
+<fieldset disabled> *fieldset satrts
+
+<label>NUMBER : <input type="number" step="4"></label> *STEP<br/><br/> 
+
+USER NAME: <input type="text" placeholder="enter name" pattern="^[a-z]+$" title="hint:small abcd"> *partten && **tittle<br/><br/>
+
+comment: <textarea  rows="10" cols="30"> i am batman</textarea> *textArea     <br/><br/><br/>
+ </fieldset>*fieldset close
+
+<fieldset>
+<legend><b> Personal info</legend>*legend TAG
+
+<label>Male:<input type="radio" name ="gen"></label>
+<label>FeMale:<input type="radio" name ="gen"></label><br><br>
+
+<label for="male">Male:</label>
+<input type="radio" name ="gen" id="male">
+ 
+<label for="female">FeMale:</label>
+<input type="radio" name ="gen" id="female"><br><br>
+
+<!--Course <select multiple autofocus>  -->
+<!--Course <select name="courselist" autofocus size="3">-->
+
+Course <select name="courselist">
+<option value=""> </option> 
+<option value="java"> java programming </option>
+<option value="c#" disabled> c# programming</option>
+<option value="html">HTML  </option>
+<option value="css">CSS  </option>
+<option value="javascript" selected> JAVASCRIPT </option>
+<option value="php">PHP  </option>
+
+
+</select> *select and option Tag   <br/><br/><br/>
+
+Course2 <select name="courselist">*optgroup
+<optgroup label="1St">
+<option value=""> </option> 
+<option value="java"> java programming </option>
+<option value="c#" > c# programming</option></optgroup>
+
+<optgroup label ="2nd">
+<option value="html">HTML  </option>
+<option value="css">CSS  </option>
+<option value="javascript" selected> JAVASCRIPT </option>
+<option value="php">PHP  </option></optgroup>
+
+
+</select> *select and option Tag   <br/><br/><br/>
+<input type="text" list="programming"/>*datalist
+<datalist id="programming">
+<option value=""> </option> 
+<option value="java">  </option>
+<option value="c#" disabled> </option>
+<option value="html">  </option>
+<option value="css"> </option>
+<option value="javascript" selected>  </option>
+<option value="php">  </option>
+</datalist>
+
+<button type="submit" value="java">submit  </button> *button Tag(not input button)<br><br> 
+
+<input type="submit" value="submit ">
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+
+</html>
